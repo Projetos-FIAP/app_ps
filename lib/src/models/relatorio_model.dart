@@ -1,6 +1,6 @@
 class RelatorioModel {
-  int id;
-  double ph;
+  String id;
+  int ph;
   bool status;
   String localMedicao;
   String titulo;

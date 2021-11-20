@@ -53,7 +53,7 @@ class LoginScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushNamed(
                     context,
-                    "/",
+                    "/relatorios",
                   );
                 },
                 child: Text(

@@ -1,3 +1,4 @@
+import 'package:app_ps/src/pages/login_screen.dart';
 import 'package:app_ps/src/pages/splash_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -9,7 +10,10 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       initialRoute: "/",
-      routes: {"/": (context) => SplashScreen()},
+      routes: {
+        "/": (context) => SplashScreen(),
+        "/login": (context) => LoginScreen()
+      },
       title: "ONG - Terra, planeta Água",
     );
   }
